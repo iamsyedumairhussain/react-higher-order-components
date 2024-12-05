@@ -1,14 +1,11 @@
-import React from 'react'
 import Rahul from './Rahul'
 import Sonam from './Sonam'
-
-const App = () => {
+function App() {
   return (
     <div>
-      <Rahul name ='umair' />
-      <Sonam name = 'ammar' />
+      <Rahul dept = 'Computer science' />
+      <Sonam dept = 'Electrical engineering' />
     </div>
   )
 }
-
 export default App
